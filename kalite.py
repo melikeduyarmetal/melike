@@ -1,12 +1,11 @@
+import os
+from dotenv import load_dotenv
+import mysql.connector
 import streamlit as st
-import pandas as pd
 from openpyxl import Workbook, load_workbook
 from openpyxl.drawing.image import Image
 from datetime import datetime
-import os
-import mysql.connector
 import logging
-from dotenv import load_dotenv
 
 # .env dosyasını yükle
 load_dotenv()  # Veritabanı bilgilerini burada güvenli bir şekilde saklayabilirsiniz.
